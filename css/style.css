@@ -39,7 +39,13 @@ span {
 li .bl {
     float: right;
 }
-
+#NavBar {
+text-align: left;
+}
+.icone{
+    color:white;
+    text-transform: capitalize;
+}
 
 
 
