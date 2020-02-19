@@ -1,23 +1,23 @@
 * {
-    font-family: "Source Sans Pro Light", sans-serif;
+    font-family: "Source Sans Pro Light", sans-serif;/* ici on definit la police de notre travail*/
 }
-ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 25px;
+ul li {/*on applique aux balises li précédentes la balise ul les propriétés suivantes*/
+    list-style-type: none;/* permet d'annuler les points devant les objets listés*/
+    display: inline-block;/* mettre les éléments de la liste sur une même ligne*/
+    padding: 10px 25px;/* definir les marges intérieure*/
 }
-ul li a {
-    color:white;
-    text-transform: uppercase;
-    text-decoration: none;
+ul li a {/*on applique aux balises "a" précédentes les balises "li" et "ul" les propriétés suivantes*/
+    color:white;/* pour definir la couleur*/
+    text-transform: uppercase;/* pour mettre ces éléments en majuscules*/
+    text-decoration: none;/* enlever toute sorte de décoration*/
 }
 nav {
-    position: relative;
-    float: right;
+    position: relative;/* comme l'indique son nom bien sur*/
+    float: right;/* permet de positionner ces éléments à droite*/
 }
 .download {
-    border: 1px solid white;
-    border-radius: 50px;
+    border: 1px solid white;/* definir des bords et y appliquer des propriétés comme couleurs des bordures l'épaisseur et la qualité*/
+    border-radius: 50px;/* attribut une forme arrondie au bord */
 }
 section img {
     margin:50px 500px 50px 550px;
@@ -39,19 +39,32 @@ span {
 li .bl {
     float: right;
 }
-body {
-    background-color:rgb(0, 195, 255);
-}
-div{
-    color:#ffffff;
-}
-button{
-    border-radius: 2em;
-}
-.blue{
-     background-color: rgb(0, 195, 255);
-}
-img .icon{
-    text-align: right;
-    color: white;
-}
+#NavBar {
+    text-align: left;
+    }
+    .icone{
+        color:white;
+        text-transform: capitalize;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    body {
+        background-color: #1E88E5;
+    }
+    div{
+        color:#ffffff;
+    }
+    button{
+        border-radius: 2em;
+    }
+    .blue{
+         background-color:#1E88E5;
+    }
