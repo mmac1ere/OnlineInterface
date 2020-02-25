@@ -4,3 +4,4 @@
      translateX:'100%',//quel d'animation on desire effectuer
      autoplay:false// ceci c'est pour dire que l'animation se fera par le passage de la souris
    })
+   
