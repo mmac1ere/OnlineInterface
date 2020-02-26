@@ -7,7 +7,7 @@
         <title>interface</title> <!--titre de mon fichier html-->
     </head>
 
-    <body><!--le corps de mon fichier-->
+    <body onclick="onclick=animation.play()"> <!-- ici on a l'attribut onclclick...pour dire que l'animation se ferra lorsque la souris passerra sur le texte,le corps de mon fichier-->
         <header><!--balise pour l'entête de mon fichier-->
             <nav><!--balise pour la barre de navigation-->
                 <ul><!--ici je crée une liste non ordonnée-->
@@ -19,25 +19,30 @@
             </nav>
             <div id="NavBar"><!--ici je delimite un bloc ayant comme identifiant NavBar pour dire barre de navigatin-->
                 <ul><!--une nouvelle liste non ordonnée-->
-                    <li><a href="#" class="icone"><img src="image/images.png" width="20" height="20"/> Ulkit</a></li><!--je liste mes éléments dont les styles donnés à l'identifiant du bloc creer y seront appliqués -->
+                    <li><a href="#" class="icone"><img class=icones src="image/images.png" width="20" height="20"/> Ulkit</a></li><!--je liste mes éléments dont les styles donnés à l'identifiant du bloc creer y seront appliqués -->
                 </ul>
             </div>
+           
         </header> 
         <content>
                 <section><!-- ici on selectionne une zone -->
-                    <img src="image/images.png" height="200 " width="200"/><!--mettre une image -->
+                    <img class="img" src="image/images.png" height="200 " width="200"/><!--mettre une image -->
                 </section>
-                     
                 
-                   <div>A lightweight and modular front-end framework</div> <!--permet de definir un bloc -->
-                   <div>for developing fast and powerful web interfaces.</div> 
+                <script src="js/deplace.js"></script>  
+                
+                   <div >A lightweight and modular front-end framework</div> <!--permet de definir un bloc -->
+                   <div >for developing fast and powerful web interfaces.</div> 
                 
                 <span><!--selectionne un bloc-->
                     <button>GET STARTED</button><!--definir des boutons-->
                     <button class="blue">GITHUB</button>
                 </span>
+
                      
         
+                     
+        <script src="js/script.js"></script>
         </content>
          <footer>
              <div><ul><li>version 3.3.1 </li>
@@ -48,5 +53,11 @@
                     </ul>
              </div>
          </footer>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script><!--une bibliothèque pour animation js mit dans la balise script-->
+         <script src="js/anime.js"></script>
+         <script src="js/mondes.js"></script>
+       <!--  <script src="js/deplace2.js"></script> -->
+         
+        
     </body>
 </html>

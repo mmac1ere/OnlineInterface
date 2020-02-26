@@ -1,5 +1,5 @@
 * {
-    font-family: "Source Sans Pro Light", sans-serif;/* ici on definit la police de notre travail*/
+    font-family: "Source Sans Pro-Regular", sans-serif;/* ici on definit la police de notre travail*/
 }
 ul li {/*on applique aux balises li précédentes la balise ul les propriétés suivantes*/
     list-style-type: none;/* permet d'annuler les points devant les objets listés*/
@@ -42,29 +42,25 @@ li .bl {
 #NavBar {
     text-align: left;/* aligne le texte à gauche*/
     }
-    .icone{
+.icone{
         color:white;
         text-transform: capitalize;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    body {
-        background-color: #1E88E5;
+ 
+body {
+        background-color: rgb(85, 172, 248);
     }
-    div{
+div{
         color:#ffffff;
     }
-    button{
+button{
         border-radius: 2em;
+        
     }
-    .blue{
-         background-color:#1E88E5;
+.blue{
+         background-color:rgb(85, 172, 248);
+    }
+
+.img{
+        text-align: center;
     }
