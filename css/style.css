@@ -1,5 +1,5 @@
 * {
-    font-family: "Source Sans Pro Light", sans-serif;/* ici on definit la police de notre travail*/
+    font-family: "Source Sans Pro-Regular", sans-serif;/* ici on definit la police de notre travail*/
 }
 ul li {/*on applique aux balises li précédentes la balise ul les propriétés suivantes*/
     list-style-type: none;/* permet d'annuler les points devant les objets listés*/
@@ -10,7 +10,10 @@ ul li a {/*on applique aux balises "a" précédentes les balises "li" et "ul" le
     color:white;/* pour definir la couleur*/
     text-transform: uppercase;/* pour mettre ces éléments en majuscules*/
     text-decoration: none;/* enlever toute sorte de décoration*/
+
 }
+
+
 nav {
     position: relative;/* comme l'indique son nom bien sur*/
     float: right;/* permet de positionner ces éléments à droite*/
@@ -20,13 +23,13 @@ nav {
     border-radius: 50px;/* attribut une forme arrondie au bord */
 }
 section img {
-    margin:50px 500px 50px 550px;
+    margin:50px 500px 50px 550px;/* definir des marge externe*/
      }
 
 div {
-    text-align: center;
+    text-align: center;/*centrer le texte entre la balise div*/
 } 
-span button {
+span button {/* permet de donner des styles particuliers au bouton precedent la balise span*/
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
@@ -40,31 +43,29 @@ li .bl {
     float: right;
 }
 #NavBar {
-    text-align: left;
+
+    text-align: left;/* aligne le texte à gauche*/
     }
-    .icone{
+.icone{
         color:white;
         text-transform: capitalize;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    body {
-        background-color: #1E88E5;
+ 
+body {
+        background-color: rgb(85, 172, 248);
     }
-    div{
+div{
         color:#ffffff;
     }
-    button{
+button{
         border-radius: 2em;
+        
     }
-    .blue{
-         background-color:#1E88E5;
+.blue{
+         background-color:rgb(85, 172, 248);
+    }
+
+.img{
+        text-align: center;
+
     }
