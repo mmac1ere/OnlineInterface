@@ -54,7 +54,13 @@ li .bl {
         top: -10px;
     }
 
+
 /************************content***********************************/    
+HTML
+ { 
+    overflow-x : hidden;
+    overflow-y: hidden;
+ }
 .icone{
         color:white;
         text-transform: capitalize;
@@ -64,11 +70,13 @@ body {
         background-color: rgb(85, 172, 248);
     }
 div{
+        text-align: center;
         color:#ffffff;
     }
+
 button{
-        border-radius: 2em;
-        
+        border: 1px white solid; 
+        border-radius: 50px;
     }
 .blue{
          background-color:rgb(85, 172, 248);
@@ -78,7 +86,12 @@ button{
         text-align: center;
 
     }
-
+section .fa{
+    color: white;
+    margin: 50px 550px;
+    padding: 50px;
+    
+}
 
 
 /************************footer***********************************/
