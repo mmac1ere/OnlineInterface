@@ -2,51 +2,59 @@
 <html>
     <head>
         <meta charset ="ufd-8"/>
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"/>
-        <title>interface</title>
+        <link rel="stylesheet" href="css/style.css" /> <!-- cette balise permet de lier ma page html et mon css-->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"/> <!--ici on relie la page html au fichier font -->
+        <title>interface</title> <!--titre de mon fichier html-->
     </head>
 
-    <body>
-        <header>
-            <nav>
-                <ul> 
-                    <li><a href="#"> pro </a></li>
-                    <li><a href=""> documentation </a></li>
-                    <li><a href=""> changelog </a></li>
-                    <li class="download"><a href="" > download <i class="fa fa-download"> </i> </a></li>
+    <body onclick="onclick=animation.play()"> <!-- ici on a l'attribut onclclick...pour dire que l'animation se ferra lorsque la souris passerra sur le texte,le corps de mon fichier-->
+        <header><!--balise pour l'entête de mon fichier-->
+            <nav><!--balise pour la barre de navigation-->
+                <ul><!--ici je crée une liste non ordonnée-->
+                    <li><a href="#"> pro </a></li><!--là je liste les eléments de ma liste-->
+                    <li><a href=""> documentation </a></li><!--je fais pareil-->
+                    <li><a href=""> changelog </a></li><!--et là également-->
+                    <li class="download"><a href="" > download <i class="fa fa-download"> </i> </a></li><!--là aussi sauf que j'ajoute une classe question d'appliquer des styles particuliers-->
                 </ul>
             </nav>
-            <div id="NavBar">
-                <ul>
-                    <li><a href="#" class="icone"><img src="image/images.png" width="20" height="20"/> Ulkit</a></li>
+            <div id="NavBar"><!--ici je delimite un bloc ayant comme identifiant NavBar pour dire barre de navigatin-->
+                <ul><!--une nouvelle liste non ordonnée-->
+                    <li><a href="#" class="icone"><img class=icones src="image/images.png" width="20" height="20"/> Ulkit</a></li><!--je liste mes éléments dont les styles donnés à l'identifiant du bloc creer y seront appliqués -->
                 </ul>
             </div>
+           
         </header> 
         <content>
-                <section>
-                    <img src="image/images.png" height="200 " width="200"/>
+                <section><!-- ici on selectionne une zone -->
+                    <img class="img" src="image/images.png" height="200 " width="200"/><!--mettre une image -->
                 </section>
-                     
-                <p>
-                   <div>A lightweight and modular front-end framework</div> 
-                   <div>for developing fast and powerful web interfaces.</div> 
-                </p>
-                <span>
-                    <button>GET STARTED</button>
+                
+                <script src="js/deplace.js"></script>  
+                
+                   <div >A lightweight and modular front-end framework</div> <!--permet de definir un bloc -->
+                   <div >for developing fast and powerful web interfaces.</div> 
+                
+                <span><!--selectionne un bloc-->
+                    <button>GET STARTED</button><!--definir des boutons-->
                     <button class="blue">GITHUB</button>
                 </span>
+
                      
         
+                     
+        <script src="js/script.js"></script>
         </content>
          <footer>
              <div><ul><li>version 3.3.1 </li>
                       <li><img src="image/etoile.png" height="20" width="20"/> 15363 Stargazers </li>
                       <li><img src="image/twitter.png" height="20" width="20"/>@getuikit </li>
-                      <li><img src="image/commumity.png" height="20" width="20"/>Community  </li>
                       <li class="bl"><button class=" blue">ULKIT 2-></button></li> 
                     </ul>
              </div>
          </footer>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script><!--une bibliothèque pour animation js mit dans la balise script-->
+         <script src="js/anime.js"></script>
+         <script src="js/mondes.js"></script>
+       <!--  <script src="js/deplace2.js"></script> -->
     </body>
 </html>
