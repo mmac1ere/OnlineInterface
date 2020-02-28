@@ -99,10 +99,24 @@ margin: 50px 550px;
 padding: 50px;
 
 }
-footer{
-    width: 100%;
+footer{width: 100%;
 position: absolute;
 bottom: 0%;
 left : 0%;
 
+}
+a.icon{
+    position: relative;
+    left: 5%;
+    top: 0px;
+    text-transform: lowercase;
+}
+a.UIKIT{
+    position: relative;
+    right: 10%;
+    top: 0px;
+    text-transform: uppercase;
+}
+.fa{
+    color: white;
 }
