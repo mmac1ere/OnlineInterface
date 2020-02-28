@@ -41,9 +41,6 @@ span {
     margin: 100px;
     padding: 400px;
 }
-li .bl {
-    float: right;
-}
 #NavBar {
       text-align: left;/* aligne le texte à gauche*/
 
@@ -78,20 +75,34 @@ button{
         border: 1px white solid; 
         border-radius: 50px;
     }
-.blue{
-         background-color:rgb(85, 172, 248);
-    }
-
-.img{
-        text-align: center;
-
-    }
-section .fa{
-    color: white;
-    margin: 50px 550px;
-    padding: 50px;
-    
-}
 
 
 /************************footer***********************************/
+.blue{
+    background-color:rgb(85, 172, 248);
+}
+.bl{
+    background-color:rgb(85, 172, 248);
+    position: absolute;
+    right: 10px;
+    margin: -20px 10px 5px 20px;
+    padding: 10px 20px;
+}
+
+.img{
+   text-align: center;
+
+}
+section .fa{
+color: white;
+margin: 50px 550px;
+padding: 50px;
+
+}
+footer{
+    width: 100%;
+position: absolute;
+bottom: 0%;
+left : 0%;
+
+}
