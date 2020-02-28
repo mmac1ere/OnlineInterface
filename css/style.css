@@ -1,81 +1,65 @@
 * {
-    font-family: "Source Sans Pro-Regular", sans-serif;/* ici on definit la police de notre travail*/
+    font-family: "Source Sans Pro-Regular", sans-serif;
+}
+.fa{
+    color: white;
 }
 
 
 /************************header***********************************/
-ul li {/*on applique aux balises li précédentes la balise ul les propriétés suivantes*/
-    list-style-type: none;/* permet d'annuler les points devant les objets listés*/
-    display: inline-block;/* mettre les éléments de la liste sur une même ligne*/
-    padding: 10px 25px;/* definir les marges intérieure*/
-}
-ul li a {/*on applique aux balises "a" précédentes les balises "li" et "ul" les propriétés suivantes*/
-    color:white;/* pour definir la couleur*/
-    text-transform: uppercase;/* pour mettre ces éléments en majuscules*/
-    text-decoration: none;/* enlever toute sorte de décoration*/
-}
-
-
-nav {
-    position: relative;/* comme l'indique son nom bien sur*/
-    float: right;/* permet de positionner ces éléments à droite*/
-}
-.download {
-    border: 1px solid white;/* definir des bords et y appliquer des propriétés comme couleurs des bordures l'épaisseur et la qualité*/
-    border-radius: 50px;/* attribut une forme arrondie au bord */
-}
-section img {
-    margin:50px 500px 50px 550px;/* definir des marge externe*/
-     }
-
-div {
-    text-align: center;/*centrer le texte entre la balise div*/
-} 
-span button {/* permet de donner des styles particuliers au bouton precedent la balise span*/
+ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
-    margin: 20px;
 }
-span {
-    margin: 100px;
-    padding: 400px;
+ul li a {
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
 }
+nav {
+    position: relative;
+    float: right;
+}
+.download {
+    border: 1px solid white;
+    border-radius: 50px;
+}
+div {
+    text-align: center;
+} 
 #NavBar {
-      text-align: left;/* aligne le texte à gauche*/
-
-    }
-    a.uikit{
-        position: relative;
-        left: 5%;
-        top: -10px;
-    }
+    text-align: left;
+}
+a.uikit{
+    position: relative;
+    left: 5%;
+    top: -10px;
+}
+    
 
 
 /************************content***********************************/    
 HTML
- { 
+{ 
     overflow-x : hidden;
     overflow-y: hidden;
- }
+}
 .icone{
         color:white;
         text-transform: capitalize;
-    }
- 
+} 
 body {
         background-color: rgb(85, 172, 248);
-    }
+}
 div{
         text-align: center;
         color:#ffffff;
-    }
-
+}
 button{
         border: 1px white solid; 
         border-radius: 50px;
-        
-    }
+}
 section.big-github-icon {
     position: relative;
     margin: 0 auto;  
@@ -91,6 +75,17 @@ section.content{
 .white{
     color:rgb(85, 172, 248);
 }
+span button {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 20px;
+}
+span {
+    margin: 100px;
+    padding: 400px;
+}
+
 
 /************************footer***********************************/
 .blue{
@@ -103,17 +98,14 @@ section.content{
     margin: -20px 10px 5px 20px;
     padding: 10px 20px;
 }
-
 .img{
    text-align: center;
-
 }
-
-footer{width: 100%;
-position: absolute;
-bottom: 0%;
-left : 0%;
-
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    left : 0%;
 }
 a.icon{
     position: relative;
@@ -126,7 +118,4 @@ a.UIKIT{
     right: 10%;
     top: 0px;
     text-transform: uppercase;
-}
-.fa{
-    color: white;
 }

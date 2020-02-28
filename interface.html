@@ -2,25 +2,27 @@
 <html>
     <head>
         <meta charset ="ufd-8"/>
-        <link rel="stylesheet" href="css/style.css" /> <!-- cette balise permet de lier ma page html et mon css-->
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"/> <!--ici on relie la page html au fichier font -->
-        <title>interface</title> <!--titre de mon fichier html-->
+        <!-- Liaison avec mes fichiers externes -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"/> 
+        <title>interface</title> 
     </head>
 
-    <body onclick="onclick=animation.play()"> <!-- ici on a l'attribut onclclick...pour dire que l'animation se ferra lorsque la souris passerra sur le texte,le corps de mon fichier-->
-        <header><!--balise pour l'entête de mon fichier-->
-            <nav><!--balise pour la barre de navigation-->
-                <ul><!--ici je crée une liste non ordonnée-->
-                    <li><a href="#"> pro </a></li><!--là je liste les eléments de ma liste-->
-                    <li><a href=""> documentation </a></li><!--je fais pareil-->
-                    <li><a href=""> changelog </a></li><!--et là également-->
-                    <li class="download"><a href="" > download <i class="fa fa-download"> </i> </a></li><!--là aussi sauf que j'ajoute une classe question d'appliquer des styles particuliers-->
+    <body> 
+        <!--Menu de ma page  -->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#"> pro </a></li>
+                    <li><a href=""> documentation </a></li>
+                    <li><a href=""> changelog </a></li>
+                    <li class="download"><a href="" > download <i class="fa fa-download"> </i> </a></li>
                 </ul>
             </nav>
-            <div id="NavBar"><!--ici je delimite un bloc ayant comme identifiant NavBar pour dire barre de navigatin-->
-                <ul><!--une nouvelle liste non ordonnée-->
+            <div id="NavBar">
+                <ul>
                     <li>
-                        <i class="fa fa-circle fa-3x"></i>
+                        <i class="fa fa-github fa-3x"></i>
                         <a href="#" class="uikit">UIKIT</a>
                     </li>
                 </ul>
@@ -44,19 +46,31 @@
             </span>
         </section>
 
-         <footer>
-             <div><ul class="footer"><li>version 3.3.1 </li>
-                      <li><i class="fa fa-star fa-1x"></i><a href="" class="icon">15363 Stargazers</a></li>
-                      <li><i class="fa fa-twitter fa-1x"></i><a href="#" class="icon">@getuikit</a></li>
-                      <li><i class="fa fa-comment"></i><a href="#" class="icon">community </a></li>
-                      <li ><button class=" bl"><a href="#" class="UIKIT">UIKIT 2</a><i class="fa fa-arrow-right"></i></button></li> 
-                    </ul>
-             </div>
-         </footer>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>une bibliothèque pour animation js mit dans la balise script
-         <script src="js/anime.js"></script>
-         <script src="js/mondes.js"></script>
-         <script src="js/deplace2.js"></script> -->
+         <!--Pieds de page  -->
+        <footer>
+            <div>
+                <ul class="footer">
+                    <li>version 3.3.1</li>
+                    <li>
+                        <i class="fa fa-star fa-1x"></i>
+                        <a href="" class="icon">15363 Stargazers</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-twitter fa-1x"></i>
+                        <a href="#" class="icon">@getuikit</a></li>
+                    <li>
+                        <i class="fa fa-comment"></i>
+                        <a href="#" class="icon">community</a>
+                    </li>
+                    <li>
+                        <button class=" bl">
+                            <a href="#" class="UIKIT">UIKIT 2</a>
+                            <i class="fa fa-arrow-right"></i>
+                        </button>
+                    </li> 
+                </ul>
+            </div>
+        </footer>
 
     </body>
 </html>
