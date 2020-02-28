@@ -74,8 +74,23 @@ div{
 button{
         border: 1px white solid; 
         border-radius: 50px;
+        
     }
-
+section.big-github-icon {
+    position: relative;
+    margin: 0 auto;  
+    width: 200px;
+    color: white;
+}
+section.content{
+    margin:125px 0px ;
+}
+.blue{
+    color: white;
+}
+.white{
+    color:rgb(85, 172, 248);
+}
 
 /************************footer***********************************/
 .blue{
@@ -93,12 +108,7 @@ button{
    text-align: center;
 
 }
-section .fa{
-color: white;
-margin: 50px 550px;
-padding: 50px;
 
-}
 footer{width: 100%;
 position: absolute;
 bottom: 0%;
